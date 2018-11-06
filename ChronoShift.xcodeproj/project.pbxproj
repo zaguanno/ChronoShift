@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5BD7BAD2191395D00AAFDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BAC2191395D00AAFDF4 /* AppDelegate.swift */; };
+		B5BD7BAF2191395D00AAFDF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BAE2191395D00AAFDF4 /* ViewController.swift */; };
+		B5BD7BB22191395D00AAFDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD7BB02191395D00AAFDF4 /* Main.storyboard */; };
+		B5BD7BB42191395F00AAFDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BD7BB32191395F00AAFDF4 /* Assets.xcassets */; };
+		B5BD7BB72191395F00AAFDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD7BB52191395F00AAFDF4 /* LaunchScreen.storyboard */; };
+		B5BD7BC22191395F00AAFDF4 /* ChronoShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BC12191395F00AAFDF4 /* ChronoShiftTests.swift */; };
+		B5BD7BCD2191395F00AAFDF4 /* ChronoShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BCC2191395F00AAFDF4 /* ChronoShiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5BD7BBE2191395F00AAFDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BD7BA12191395D00AAFDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5BD7BA82191395D00AAFDF4;
+			remoteInfo = ChronoShift;
+		};
+		B5BD7BC92191395F00AAFDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5BD7BA12191395D00AAFDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5BD7BA82191395D00AAFDF4;
+			remoteInfo = ChronoShift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5BD7BA92191395D00AAFDF4 /* ChronoShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronoShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BD7BAC2191395D00AAFDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5BD7BAE2191395D00AAFDF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5BD7BB12191395D00AAFDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5BD7BB32191395F00AAFDF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5BD7BB62191395F00AAFDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5BD7BB82191395F00AAFDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BD7BBD2191395F00AAFDF4 /* ChronoShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronoShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BD7BC12191395F00AAFDF4 /* ChronoShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoShiftTests.swift; sourceTree = "<group>"; };
+		B5BD7BC32191395F00AAFDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BD7BC82191395F00AAFDF4 /* ChronoShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChronoShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BD7BCC2191395F00AAFDF4 /* ChronoShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoShiftUITests.swift; sourceTree = "<group>"; };
+		B5BD7BCE2191395F00AAFDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5BD7BA62191395D00AAFDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BBA2191395F00AAFDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BC52191395F00AAFDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5BD7BA02191395D00AAFDF4 = {
+			isa = PBXGroup;
+			children = (
+				B5BD7BAB2191395D00AAFDF4 /* ChronoShift */,
+				B5BD7BC02191395F00AAFDF4 /* ChronoShiftTests */,
+				B5BD7BCB2191395F00AAFDF4 /* ChronoShiftUITests */,
+				B5BD7BAA2191395D00AAFDF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5BD7BAA2191395D00AAFDF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD7BA92191395D00AAFDF4 /* ChronoShift.app */,
+				B5BD7BBD2191395F00AAFDF4 /* ChronoShiftTests.xctest */,
+				B5BD7BC82191395F00AAFDF4 /* ChronoShiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5BD7BAB2191395D00AAFDF4 /* ChronoShift */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD7BAC2191395D00AAFDF4 /* AppDelegate.swift */,
+				B5BD7BAE2191395D00AAFDF4 /* ViewController.swift */,
+				B5BD7BB02191395D00AAFDF4 /* Main.storyboard */,
+				B5BD7BB32191395F00AAFDF4 /* Assets.xcassets */,
+				B5BD7BB52191395F00AAFDF4 /* LaunchScreen.storyboard */,
+				B5BD7BB82191395F00AAFDF4 /* Info.plist */,
+			);
+			path = ChronoShift;
+			sourceTree = "<group>";
+		};
+		B5BD7BC02191395F00AAFDF4 /* ChronoShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD7BC12191395F00AAFDF4 /* ChronoShiftTests.swift */,
+				B5BD7BC32191395F00AAFDF4 /* Info.plist */,
+			);
+			path = ChronoShiftTests;
+			sourceTree = "<group>";
+		};
+		B5BD7BCB2191395F00AAFDF4 /* ChronoShiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD7BCC2191395F00AAFDF4 /* ChronoShiftUITests.swift */,
+				B5BD7BCE2191395F00AAFDF4 /* Info.plist */,
+			);
+			path = ChronoShiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5BD7BA82191395D00AAFDF4 /* ChronoShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BD7BD12191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShift" */;
+			buildPhases = (
+				B5BD7BA52191395D00AAFDF4 /* Sources */,
+				B5BD7BA62191395D00AAFDF4 /* Frameworks */,
+				B5BD7BA72191395D00AAFDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChronoShift;
+			productName = ChronoShift;
+			productReference = B5BD7BA92191395D00AAFDF4 /* ChronoShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5BD7BBC2191395F00AAFDF4 /* ChronoShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BD7BD42191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShiftTests" */;
+			buildPhases = (
+				B5BD7BB92191395F00AAFDF4 /* Sources */,
+				B5BD7BBA2191395F00AAFDF4 /* Frameworks */,
+				B5BD7BBB2191395F00AAFDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BD7BBF2191395F00AAFDF4 /* PBXTargetDependency */,
+			);
+			name = ChronoShiftTests;
+			productName = ChronoShiftTests;
+			productReference = B5BD7BBD2191395F00AAFDF4 /* ChronoShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5BD7BC72191395F00AAFDF4 /* ChronoShiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BD7BD72191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShiftUITests" */;
+			buildPhases = (
+				B5BD7BC42191395F00AAFDF4 /* Sources */,
+				B5BD7BC52191395F00AAFDF4 /* Frameworks */,
+				B5BD7BC62191395F00AAFDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5BD7BCA2191395F00AAFDF4 /* PBXTargetDependency */,
+			);
+			name = ChronoShiftUITests;
+			productName = ChronoShiftUITests;
+			productReference = B5BD7BC82191395F00AAFDF4 /* ChronoShiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5BD7BA12191395D00AAFDF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Smoak, Zachary";
+				TargetAttributes = {
+					B5BD7BA82191395D00AAFDF4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B5BD7BBC2191395F00AAFDF4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5BD7BA82191395D00AAFDF4;
+					};
+					B5BD7BC72191395F00AAFDF4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B5BD7BA82191395D00AAFDF4;
+					};
+				};
+			};
+			buildConfigurationList = B5BD7BA42191395D00AAFDF4 /* Build configuration list for PBXProject "ChronoShift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5BD7BA02191395D00AAFDF4;
+			productRefGroup = B5BD7BAA2191395D00AAFDF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5BD7BA82191395D00AAFDF4 /* ChronoShift */,
+				B5BD7BBC2191395F00AAFDF4 /* ChronoShiftTests */,
+				B5BD7BC72191395F00AAFDF4 /* ChronoShiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5BD7BA72191395D00AAFDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BD7BB72191395F00AAFDF4 /* LaunchScreen.storyboard in Resources */,
+				B5BD7BB42191395F00AAFDF4 /* Assets.xcassets in Resources */,
+				B5BD7BB22191395D00AAFDF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BBB2191395F00AAFDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BC62191395F00AAFDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5BD7BA52191395D00AAFDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BD7BAF2191395D00AAFDF4 /* ViewController.swift in Sources */,
+				B5BD7BAD2191395D00AAFDF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BB92191395F00AAFDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BD7BC22191395F00AAFDF4 /* ChronoShiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD7BC42191395F00AAFDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BD7BCD2191395F00AAFDF4 /* ChronoShiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5BD7BBF2191395F00AAFDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5BD7BA82191395D00AAFDF4 /* ChronoShift */;
+			targetProxy = B5BD7BBE2191395F00AAFDF4 /* PBXContainerItemProxy */;
+		};
+		B5BD7BCA2191395F00AAFDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5BD7BA82191395D00AAFDF4 /* ChronoShift */;
+			targetProxy = B5BD7BC92191395F00AAFDF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5BD7BB02191395D00AAFDF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BD7BB12191395D00AAFDF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5BD7BB52191395F00AAFDF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5BD7BB62191395F00AAFDF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5BD7BCF2191395F00AAFDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5BD7BD02191395F00AAFDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5BD7BD22191395F00AAFDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5BD7BD32191395F00AAFDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5BD7BD52191395F00AAFDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChronoShift.app/ChronoShift";
+			};
+			name = Debug;
+		};
+		B5BD7BD62191395F00AAFDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChronoShift.app/ChronoShift";
+			};
+			name = Release;
+		};
+		B5BD7BD82191395F00AAFDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChronoShift;
+			};
+			name = Debug;
+		};
+		B5BD7BD92191395F00AAFDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChronoShiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmoakHaus.ChronoShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChronoShift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5BD7BA42191395D00AAFDF4 /* Build configuration list for PBXProject "ChronoShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BD7BCF2191395F00AAFDF4 /* Debug */,
+				B5BD7BD02191395F00AAFDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BD7BD12191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BD7BD22191395F00AAFDF4 /* Debug */,
+				B5BD7BD32191395F00AAFDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BD7BD42191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BD7BD52191395F00AAFDF4 /* Debug */,
+				B5BD7BD62191395F00AAFDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BD7BD72191395F00AAFDF4 /* Build configuration list for PBXNativeTarget "ChronoShiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BD7BD82191395F00AAFDF4 /* Debug */,
+				B5BD7BD92191395F00AAFDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5BD7BA12191395D00AAFDF4 /* Project object */;
+}
