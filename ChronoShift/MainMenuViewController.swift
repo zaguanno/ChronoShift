@@ -12,8 +12,8 @@ struct Company {
 class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet var collectionView: UICollectionView!
-    var shifts = [Company(name: "Comcast", logo: "cmcsa_logo"), Company(name: "Smoakhaus", logo: "smoakhaus_logo")]
-    var admins = [Company(name: "Smoakhaus", logo: "smoakhaus_logo")]
+    var shifts = [Company(name: "Comcast", logo: "cmcsa_logo"), Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
+    var admins = [Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
     
     override func viewDidLoad() {
         collectionView.dataSource = self
@@ -59,10 +59,12 @@ class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICo
             let shift = shifts[indexPath.row]
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AllShiftsView", for: indexPath) as! ShiftCollectionViewCell
             cell.companyLogo.image = UIImage(named: shift.logo)
+            cell.companyName.text = shift.name
         case 1:
             let admin = admins[indexPath.row]
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AllShiftsView", for: indexPath) as! ShiftCollectionViewCell
             cell.companyLogo.image = UIImage(named: admin.logo)
+            cell.companyName.text = admin.name
         default:
             break
         }

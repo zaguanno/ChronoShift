@@ -78,7 +78,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AllShiftsView" id="p2o-ef-Jba" customClass="ShiftCollectionViewCell" customModule="ChronoShift" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="AllShiftsView" id="p2o-ef-Jba" customClass="ShiftCollectionViewCell" customModule="ChronoShift" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="85" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -88,9 +88,22 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BlG-Ri-gte">
                                                     <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHk-P7-5XM">
+                                                    <rect key="frame" x="0.5" y="65" width="84" height="14"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="CompanyName">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <constraints>
+                                            <constraint firstItem="lHk-P7-5XM" firstAttribute="centerX" secondItem="p2o-ef-Jba" secondAttribute="centerX" id="9Gt-l1-zkT"/>
+                                            <constraint firstAttribute="bottom" secondItem="lHk-P7-5XM" secondAttribute="bottom" constant="6" id="c9i-hc-B1d"/>
                                             <constraint firstAttribute="bottom" secondItem="BlG-Ri-gte" secondAttribute="bottom" id="cSB-bA-JLm"/>
                                             <constraint firstAttribute="trailing" secondItem="BlG-Ri-gte" secondAttribute="trailing" id="d1O-3V-RgE"/>
                                             <constraint firstItem="BlG-Ri-gte" firstAttribute="leading" secondItem="p2o-ef-Jba" secondAttribute="leading" id="ora-v1-Yls"/>
@@ -98,6 +111,8 @@
                                         </constraints>
                                         <connections>
                                             <outlet property="companyLogo" destination="BlG-Ri-gte" id="F0s-Fk-B0J"/>
+                                            <outlet property="companyName" destination="lHk-P7-5XM" id="GeT-aS-NFk"/>
+                                            <segue destination="CXA-Yy-rCI" kind="showDetail" id="exw-ei-wu5"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -131,6 +146,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="azk-bu-f6Y" firstAttribute="top" secondItem="ZLx-Hy-tQO" secondAttribute="bottom" constant="8" id="4Up-sX-Re6"/>
                             <constraint firstItem="ZLx-Hy-tQO" firstAttribute="trailing" secondItem="X2J-n6-fr7" secondAttribute="trailingMargin" id="EDL-F6-dje"/>
                             <constraint firstAttribute="bottom" secondItem="azk-bu-f6Y" secondAttribute="bottom" constant="20" symbolic="YES" id="Gui-8B-ZSC"/>
                             <constraint firstItem="ZLx-Hy-tQO" firstAttribute="top" secondItem="Deb-8s-pyo" secondAttribute="top" id="QlV-fY-kU8"/>
