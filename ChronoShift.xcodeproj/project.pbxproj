@@ -16,6 +16,7 @@
 		B5BD7BCD2191395F00AAFDF4 /* ChronoShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BCC2191395F00AAFDF4 /* ChronoShiftUITests.swift */; };
 		B5BD7BDB2191FF4200AAFDF4 /* ShiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BDA2191FF4200AAFDF4 /* ShiftCollectionViewCell.swift */; };
 		B5BD7BE22192152900AAFDF4 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BE12192152900AAFDF4 /* MainMenuViewController.swift */; };
+		B5BD7BE92193326900AAFDF4 /* ShiftDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7BE82193326900AAFDF4 /* ShiftDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B5BD7BCE2191395F00AAFDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5BD7BDA2191FF4200AAFDF4 /* ShiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5BD7BE12192152900AAFDF4 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		B5BD7BE82193326900AAFDF4 /* ShiftDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B5BD7BAB2191395D00AAFDF4 /* ChronoShift */ = {
 			isa = PBXGroup;
 			children = (
+				B5BD7BE82193326900AAFDF4 /* ShiftDetailViewController.swift */,
 				B5BD7BAC2191395D00AAFDF4 /* AppDelegate.swift */,
 				B5BD7BAE2191395D00AAFDF4 /* ViewController.swift */,
 				B5BD7BB02191395D00AAFDF4 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				B5BD7BE22192152900AAFDF4 /* MainMenuViewController.swift in Sources */,
 				B5BD7BAF2191395D00AAFDF4 /* ViewController.swift in Sources */,
+				B5BD7BE92193326900AAFDF4 /* ShiftDetailViewController.swift in Sources */,
 				B5BD7BDB2191FF4200AAFDF4 /* ShiftCollectionViewCell.swift in Sources */,
 				B5BD7BAD2191395D00AAFDF4 /* AppDelegate.swift in Sources */,
 			);

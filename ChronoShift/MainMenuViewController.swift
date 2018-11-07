@@ -71,4 +71,26 @@ class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICo
         
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        var shift: Company?
+        switch indexPath.section {
+        case 0:
+            shift = shifts[indexPath.row]
+        case 1:
+            shift = admins[indexPath.row]
+        default:
+            break
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let shiftDetailViewController = storyboard.instantiateViewController(withIdentifier: "ShiftDetail") as! ShiftDetailViewController
+        
+        if let s = shift {
+            shiftDetailViewController.company = s
+        }
+        
+        //since you are pushing this to a stack - ie back button. It should be instead loaded on a UINavigationController
+        self.present(shiftDetailViewController, animated: true) {}
+    }
 }
