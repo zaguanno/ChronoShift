@@ -172,7 +172,7 @@
         <!--ShiftDetail-->
         <scene sceneID="E2u-6f-uop">
             <objects>
-                <viewController title="ShiftDetail" id="CXA-Yy-rCI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShiftDetail" title="ShiftDetail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CXA-Yy-rCI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EKr-ve-0nD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
