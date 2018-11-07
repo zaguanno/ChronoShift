@@ -112,7 +112,6 @@
                                         <connections>
                                             <outlet property="companyLogo" destination="BlG-Ri-gte" id="F0s-Fk-B0J"/>
                                             <outlet property="companyName" destination="lHk-P7-5XM" id="GeT-aS-NFk"/>
-                                            <segue destination="CXA-Yy-rCI" kind="showDetail" id="exw-ei-wu5"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

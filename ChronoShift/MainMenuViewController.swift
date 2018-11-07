@@ -11,12 +11,21 @@ struct Company {
 
 class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    var user: User?
+    
     @IBOutlet var collectionView: UICollectionView!
-    var shifts = [Company(name: "Comcast", logo: "cmcsa_logo"), Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
-    var admins = [Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
+    //var shifts = [Company(name: "Comcast", logo: "cmcsa_logo"), Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
+    //var admins = [Company(name: "SmoakHaus", logo: "smoakhaus_logo2")]
+    var shifts: [Company]!
+    var admins: [Company]!
     
     override func viewDidLoad() {
         collectionView.dataSource = self
+        
+        if let u = self.user {
+            self.shifts = u.shifts
+            self.admins = u.admins
+        }
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -72,6 +81,7 @@ class MainMenuViewController: UIViewController, UICollectionViewDataSource, UICo
         return cell
     }
     
+    //Click on a shift or admin item to open detail view
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         var shift: Company?
         switch indexPath.section {
